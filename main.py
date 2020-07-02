@@ -16,3 +16,4 @@ for p in range(number):
         password += random.choice(chars)
     print(password)
     text = clipboard.copy(password)
+    print("The last password has been added to your clipboard!")
